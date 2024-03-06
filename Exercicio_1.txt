@@ -1,0 +1,23 @@
+1) Observe o trecho de código abaixo:
+
+int INDICE = 13, SOMA = 0, K = 0;
+
+enquanto K < INDICE faça
+
+{
+
+K = K + 1;
+
+SOMA = SOMA + K;
+
+}
+
+imprimir(SOMA);
+
+---------
+
+No início do código , K é 0 e Soma é 0.
+Na primeira iteração do laço, K é incrementado em 1, então K se torna 1. E Soma é incrementado pelo valor de K, ou seja, Soma agora é 1.
+Na segunda iteração, K é incrementado em 1 novamente, então K se torna 2. E SOMA é incrementado pelo valor de K, que é 2. Agora, SOMA é 3.
+Esse processo continua até que K alcance o valor de 13. A cada iteração, K é incrementado em 1 e SOMA é aumentado pelo valor de K.
+Quando K atinge 13, a última iteração ocorre. SOMA será a soma de todos os números de 1 a 13.
